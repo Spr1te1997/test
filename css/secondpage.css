@@ -1,0 +1,223 @@
+.Page2{
+    width: 1920px;
+    height: 1435px;
+    margin-top: -150px;
+}
+.title_block{
+    width: 590px;
+    height: 200px;
+    margin: 78px 136px 52px 275px;
+}
+.title_wrap{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.title_top{
+    width: 141px;
+    height: 20px;
+    align-self: flex-start;
+    color: #424242;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 10px;
+}
+.title_bottom{
+    width: 584px;
+    height: 160px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 78.5px;
+    color: #01996D;
+    padding: 10px;
+}
+.right_block_text{
+    width: 690px;
+    height: 270px;
+    margin: -196px 1254px 10px 1250px;
+}
+.right_info{
+    width: 690px;
+    height: 270px;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+.left_block{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 945px;
+    width: 390px;
+    margin-top: 10px;
+    margin-left: 275px;
+}
+.left_head{
+    width: 247px;
+    height: 225px;
+    margin-top: 10px;
+}
+.left{
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    color:#01996D;
+    opacity: 0.2;
+    height: 225px;
+    width: 157px;
+    font-family: Georgia;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 225px;
+    text-align: center;
+}
+.Personalize{
+    align-self: flex-start;
+    margin-top: -100px;
+    padding-left: 50px;
+    position: absolute;
+    z-index: 2;
+    height: 45px;
+    width: 181px;
+    font-family: Georgia;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+}
+.left_text{
+    width: 382px;
+    height: 150px;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    padding: 10px;
+}
+.img1{
+    height: 492px;
+    width: 390px;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+.middle_block{
+    display: block;
+    height: 815px;
+    width: 500px;
+    margin-left: 780px;
+    margin-top: -700px;
+}
+.middle{
+    position: relative;
+    z-index: 1;
+    height: 225px;
+    width: 176px;
+    padding: 10px;
+    font-family: Georgia;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 225px;
+    color: #01996D33;
+}
+.Write{
+    position: absolute;
+    z-index: 2;
+    height: 45px;
+    width: 313px;
+    margin-top: -100px;
+    margin-left: 70px;
+    font-family: Georgia;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+}
+.middle_p{
+    height: 90px;
+    width: 392px;
+    padding: 10px 10px 70px 10px;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+.img4{
+    margin: 1px;
+    height: 492px;
+    width: 390px;
+    border-radius: 12px;
+}
+.right_block{
+    height: 815px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -950px;
+    margin-left: 1290px;
+}
+.right{
+    position: relative;
+    z-index: 1;
+    height: 225px;
+    width: 175px;
+    padding: 10px;
+    font-family: Georgia;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    color: #01996D33;
+}
+.Alivio{
+    position: absolute;
+    z-index: 2;
+    margin-top: -125px;
+    margin-left: 135px;
+    height: 45px;
+    width: 102px;
+    font-family: Georgia;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+
+}
+.right_p{
+    margin-top: 240px;
+    margin-left: -180px;
+    height: 90px;
+    width: 441px;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color:#424242;
+}
+.img5{
+    margin-top: 400px;
+    margin-left: -450px;
+    height: 492px;
+    width: 390px;
+    border-radius: 12px;
+}
+
+
+
