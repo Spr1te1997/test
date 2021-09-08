@@ -1,0 +1,37 @@
+.bg5{
+    margin-top: -600px;
+    height: 654px;
+    width: 1920px;
+    background-color: #245852;
+}
+.title5{
+    height: 55px;
+    width: 108px;
+    font-family: Avenir;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 55px;
+    color: #ffffff;
+    padding: 95px 1537px 60px 275px;
+}
+.list {
+    margin-left: 275px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-rows: repeat(4, 20px);
+    grid-row-gap: 80px;
+    justify-items: start;
+    align-items: start;
+    list-style: none;
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    color: #ffffff;
+}
+.list li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,142 @@
+.logo{
+    width: 90px;
+    height: 30px;
+    display: block;
+    margin-left: 275px;
+
+}
+a{
+    text-decoration: none;
+    color: #292929;
+    font-weight: inherit;
+    font-size:20px ;
+}
+a:hover{
+    text-decoration: underline;
+    color: #01996D;
+}
+.header{
+    position: fixed;
+    z-index: 99;
+    width: 1920px;
+    height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-between;
+    background-image: linear-gradient(to top , #01996D 5%,white 5%);
+    font-family:"Lato";
+}
+.header_section{
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    padding: 2px;
+
+}
+.header__item{
+    display: flex;
+    padding: 10px 50px;
+    font-size:20px;
+    margin-left: 5px;
+    justify-items: flex-start;
+}
+
+.header_section:nth-child(2) {
+    margin-left: 172px;
+    justify-self: flex-start;
+
+}
+.header_section:nth-child(3){
+    margin-left: -72px;
+}
+.header_section:nth-child(4){
+    margin-left: -72px;
+}
+.header_section:nth-child(5){
+    margin-left: -72px;
+}
+.sign{
+    display: block;
+    margin-left:283px ;
+    margin-right: -4px;
+    font-size:20px;
+}
+
+.btn{
+    background-color: #01996D;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 183px;
+    height: 51px;
+    margin-left: 10px;
+    margin-top: 18px;
+    margin-right: 50px;
+}
+.btn a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.btn a:hover{
+    color: black;
+    cursor: pointer;
+}
+img{
+    position: relative;
+    z-index: 1;
+    width: 1920px;
+    height: 895px;
+}
+
+.title{
+    margin: 75px 10px 30px 75px;
+    width: 440px;
+    position: absolute;
+    top: 190px;
+    left: 275px;
+    bottom: 336px;
+    font-weight: bold;
+    font-family: Georgia;
+    font-size: 65px;
+    color: #01996D;
+    z-index: 2;
+}
+.text{
+    margin: 75px 10px 30px 75px;
+    width: 420px;
+    height: 123px;
+    position: relative;
+    z-index: 3;
+    top: -520px;
+    left: 275px;
+    font-size: 20px;
+    line-height: 25px;
+    color:#484848 ;
+}
+.btn2 {
+    margin: 75px 10px 30px 75px;
+    position: absolute;
+    z-index: 4;
+    background-color:#01996D;
+    width: 227px;
+    height: 65px;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    top: 594px;
+    left: 275px;
+    right: 1202px;
+    bottom: 336px;
+
+}
+.btn2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.btn2 a:hover{
+    color: black;
+    cursor: pointer;
+}
