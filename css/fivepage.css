@@ -1,5 +1,5 @@
 .bg5{
-    margin-top: -600px;
+    margin-top: 10px;
     height: 654px;
     width: 1920px;
     background-color: #245852;
@@ -16,11 +16,12 @@
     padding: 95px 1537px 60px 275px;
 }
 .list {
+    margin-top: 70px;
     margin-left: 275px;
     margin-right: 10px;
     display: grid;
     grid-template-rows: repeat(4, 20px);
-    grid-row-gap: 80px;
+    grid-row-gap: 60px;
     justify-items: start;
     align-items: start;
     list-style: none;

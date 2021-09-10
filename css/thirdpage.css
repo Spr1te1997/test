@@ -1,6 +1,8 @@
 .Page3{
+    margin-top: 60px;
     width: 1920px;
     height: 922px;
+    margin-bottom: -40px;
 }
 .block_left{
     display: flex;
@@ -17,10 +19,6 @@
     height: 922px;
     max-width: 1920px;
 }
-.title_wrap{
-    display: flex;
-    justify-content: center;
-}
 .title3{
     display: flex;
     height: 158px;
@@ -33,10 +31,6 @@
     line-height: 62px;
     text-align: left;
     color: #ffffff;
-}
-.text_wrap{
-    display: flex;
-    justify-content: center;
 }
 .text3{
     height: 39px;
@@ -56,8 +50,6 @@
     border: 1px solid #01996D;
     border-radius: 4px;
     background-color: #01996D;
-    display: block;
-    box-sizing: border-box;
     margin-top: 70px;
     margin-left: 10px;
 }
