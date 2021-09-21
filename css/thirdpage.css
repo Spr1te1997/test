@@ -1,43 +1,43 @@
 .Page3{
-    margin-top: 60px;
-    width: 1920px;
-    height: 922px;
-    margin-bottom: -40px;
+    width: 100%;
+    max-width: 1230px;
+    margin-top: 50px;
+}
+.bg3page{
+    background-color: #245852;
+}
+.wrap3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .block_left{
     display: flex;
     flex-direction: column;
-    margin: 310px 31px 260px 207px;
-    width: 580px;
-    height: 370px;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 40%;
 }
-.bg3page{
-    display: flex;
-    flex-direction: row;
-    margin-top: 100px;
-    background-color: #245852;
-    height: 922px;
-    max-width: 1920px;
+.block_right{
+    margin: 100px 0;
+    position: relative;
+    z-index: 1;
+    width: 50%;
 }
 .title3{
-    display: flex;
-    height: 158px;
-    width: 580px;
-    padding: 10px;
+    margin: 50px 20px 0 20px;
     font-family: Georgia;
-    font-size: 50px;
+    font-size: 38px;
     font-style: normal;
     font-weight: 700;
-    line-height: 62px;
+    line-height: 52px;
     text-align: left;
     color: #ffffff;
 }
 .text3{
-    height: 39px;
-    width: 550px;
-    padding: 10px;
+    margin: 0 20px 50px 20px;
     font-family: Lato;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 39px;
@@ -45,47 +45,37 @@
     color: #FFFFFF;
 }
 .btn3{
-    height: 65px;
-    width: 240px;
     border: 1px solid #01996D;
     border-radius: 4px;
     background-color: #01996D;
-    margin-top: 70px;
-    margin-left: 10px;
+    align-self: start;
+    margin: 0 20px 50px 20px;
 }
-.btn3 a{
-    text-decoration: none;
-    padding: 1px;
-    height: 25px;
-    width: 140px;
+.btn3 p{
+    text-align: center;
     font-family: Lato;
-    font-size: 20px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0px;
+    line-height: 15px;
     color: #ffffff;
+    padding: 20px 30px;
 }
-.btn3 a:hover{
+.btn3 p:hover{
     color: #000000;
     cursor: pointer;
 }
-.imgVideo{
+.img{
+    width: 90%;
+    height: auto;
+    padding: 10px 20px;
     position: relative;
-    z-index: 1;
-    width: 900px;
-    margin-top: 280px;
-    margin-left: 100px;
-}
-.imgVideo img{
-    width: 900px;
-    height: 500px;
 }
 .circle{
     position: absolute;
     z-index: 2;
-    top: 218px;
-    left: 410px;
+    top: 34%;
+    left: 41.5%;
     height: 80px;
     width: 80px;
     border: 1px solid white;
@@ -98,8 +88,8 @@
     display: block;
     box-sizing: border-box;
     position: absolute;
-    top: 240px;
-    left: 430px;
+    top: 40%;
+    left: 45%;
     z-index: 3;
     width: 0;
     height: 0;

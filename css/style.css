@@ -5,12 +5,18 @@
 @import url('/css/thirdpage.css');
 @import url('/css/fourpage.css');
 @import url('/css/fivepage.css');
+@import url('/css/firstpagecontent.css');
 
+body{
+    padding: 0;
+    margin: 0;
+}
 *{
     padding: 0;
     margin: 0;
 }
 .container{
-    max-width: 1920px;
+    width: 100%;
+    max-width: 1230px;
 }
 
