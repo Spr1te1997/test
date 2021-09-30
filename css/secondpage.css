@@ -1,7 +1,7 @@
 .Page2{
     width: 100%;
     max-width: 1230px;
-    margin-top: 50px;
+    margin: 0 auto;
 }
 .wrap{
     display: flex;
@@ -15,7 +15,7 @@
 }
 .right_section{
     width: 40%;
-    padding: 70px;
+    padding: 70px 0;
 }
 .title1{
     justify-self: left;

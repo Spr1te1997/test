@@ -1,32 +1,30 @@
 .Page3{
     width: 100%;
-    max-width: 1230px;
-    margin-top: 50px;
-}
-.bg3page{
+    max-width: 1920px;
+    height: 900px;
     background-color: #245852;
-}
-.wrap3{
     display: flex;
-    flex-direction: row;
+}
+.container3{
+    margin: 0 auto;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1230px;
 }
 .block_left{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
-    width: 40%;
-}
-.block_right{
-    margin: 100px 0;
-    position: relative;
-    z-index: 1;
-    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 580px;
 }
 .title3{
-    margin: 50px 20px 0 20px;
-    font-family: Georgia;
+    margin-bottom: 33px;
+    font-family: Georgia,sans-serif;
     font-size: 38px;
     font-style: normal;
     font-weight: 700;
@@ -35,8 +33,8 @@
     color: #ffffff;
 }
 .text3{
-    margin: 0 20px 50px 20px;
-    font-family: Lato;
+    margin-bottom: 33px;
+    font-family: Lato,sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -48,8 +46,6 @@
     border: 1px solid #01996D;
     border-radius: 4px;
     background-color: #01996D;
-    align-self: start;
-    margin: 0 20px 50px 20px;
 }
 .btn3 p{
     text-align: center;
@@ -65,39 +61,11 @@
     color: #000000;
     cursor: pointer;
 }
-.img{
-    width: 90%;
-    height: auto;
-    padding: 10px 20px;
-    position: relative;
+.block_right{
+    display: flex;
 }
-.circle{
-    position: absolute;
-    z-index: 2;
-    top: 34%;
-    left: 41.5%;
-    height: 80px;
-    width: 80px;
-    border: 1px solid white;
-    border-radius: 50%;
-}
-.circle:hover{
-    cursor: pointer;
-}
-.triangle{
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    top: 40%;
-    left: 45%;
-    z-index: 3;
-    width: 0;
-    height: 0;
-    border-left:25px solid transparent;
-    border-right:25px solid transparent;
-    border-bottom:40px solid white;
-    transform: rotate(90deg);
-}
-.triangle:hover{
-    cursor: pointer;
+.block_right img{
+    height: 400px;
+    width: 100%;
+    max-width: 900px;
 }

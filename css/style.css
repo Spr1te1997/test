@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family = Lato: ital, wght @ 1,300 & family = Roboto & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('/css/firstpage.css');
 @import url('/css/secondpage.css');
 @import url('/css/thirdpage.css');
@@ -8,8 +8,9 @@
 @import url('/css/firstpagecontent.css');
 
 body{
-    padding: 0;
-    margin: 0;
+    width: 100%;
+    max-width: 1920px;
+    font-family: 'Lato',sans-serif;
 }
 *{
     padding: 0;
@@ -17,6 +18,6 @@ body{
 }
 .container{
     width: 100%;
-    max-width: 1230px;
+    max-width: 1920px;
 }
 

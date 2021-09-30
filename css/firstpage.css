@@ -1,9 +1,8 @@
 .logo {
-    display: block;
     width: 70px;
     height: 30px;
-    display: block;
-    margin: 20px 70px;
+    display: flex;
+    padding: 20px 50px;
 }
 a{
     text-decoration: none;
@@ -16,64 +15,66 @@ a:hover{
     color: #01996D;
 }
 .header{
+    margin:0 auto;
     width: 100%;
-    height: 80px;
+    max-width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    font-family:'Lato',sans-serif;
+}
+.line_1{
+    width: 100%;
+    max-width: 1920px;
+    border:1px solid #D6D6D6;
+}
+.left_link{
+    max-width: 650px;
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
-    flex-direction:row;
-    border-bottom: 2px solid #D6D6D6;
-    font-family:"Lato";
-}
-.header_section{
-    display: flex;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
 }
 .header__item{
-    padding: 10px 10px;
     color: #292929;
     font-size:20px;
-    justify-items: flex-start;
     text-align: justify;
     padding-left: 40px;
 }
-.right_button{
+.right_link{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    width: 100%;
-    margin-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 200px;
+    width:100%;
+    margin-right: 30px;
 }
 .sign{
-    margin-right: 10px;
-    width: 20%;
-    align-self: center;
     color: #292929;
     font-size:20px;
-    text-align: justify;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
 .btn11{
-    display: flex;
-    align-self: center;
-    width: 20%;
+    border-radius: 5px;
+    border:1px solid #01996D;
     background-color: #01996D;
-    border: 1px solid white;
-    border-radius: 4px;
     padding: 10px 35px;
-
 }
-.btn11 p{
+.btn11 a{
     text-decoration: none;
-    text-align: center;
+    font-family: Lato,sans-serif;
     font-size: 20px;
-    font-weight: 400;
-    color: #ffffff;
-    font-family: Lato;
     font-style: normal;
-    line-height: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
 }
-.btn11 p:hover{
-    color: black;
-    cursor: pointer;
-}
+
