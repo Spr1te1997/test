@@ -1,7 +1,7 @@
 .Page3{
     width: 100%;
     max-width: 1920px;
-    height: 800px;
+    height: 700px;
     background-color: #245852;
     display: flex;
 }
@@ -68,4 +68,40 @@
     height: 400px;
     width: 100%;
     max-width: 900px;
+}
+@media (max-width: 1024px){
+    .Page3{
+        width: 100%;
+        max-width: 1920px;
+        height: 900px;
+        background-color: #245852;
+        display: flex;
+    }
+    .container3{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 1230px;
+    }
+    .block_right{
+        display: flex;
+    }
+    .block_right img{
+        height: 400px;
+        width: 100%;
+        max-width: 590px;
+    }
+    .block_left{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        max-width: 580px;
+    }
 }

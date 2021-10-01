@@ -35,3 +35,35 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+@media (max-width: 1350px){
+    .title5{
+        margin-left: 50px;
+        font-family: Avenir;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 55px;
+        color: #ffffff;
+        padding: 70px 0;
+    }
+    .list {
+        margin-left: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 150px);
+        grid-column-gap: 40px;
+        list-style: none;
+        font-family: Lato,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        color: #ffffff;
+    }
+    .bg5{
+        width: 100%;
+        max-width: 1230px;
+        height: 300px;
+        margin: 0 auto;
+    }
+}

@@ -77,4 +77,57 @@ a:hover{
     text-align: center;
     color: #ffffff;
 }
+@media (max-width: 900px){
+    .header{
+        margin:0 auto;
+        width: 100%;
+        max-width: 900px;
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        font-family:'Lato',sans-serif;
+    }
+    .right_link{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 150px;
+        width:100%;
+        margin-right: 20px;
+    }
+    .left_link{
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .header__item{
+        color: #292929;
+        font-size:10px;
+        text-align: justify;
+        padding-left: 20px;
+    }
+    .sign{
+        color: #292929;
+        font-size:20px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+    }
+    .sign p{
+        text-align: justify;
+        width: 65px;
+    }
+    .btn11{
+        border-radius: 5px;
+        border:1px solid #01996D;
+        background-color: #01996D;
+        padding: 5px 25px;
+    }
+}
 
